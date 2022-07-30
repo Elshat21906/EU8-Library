@@ -18,7 +18,6 @@ public class Hooks {
         System.out.println("\tthis is coming from before hook");
         Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Driver.get().manage().window().maximize();
-
     }
 
     @After
